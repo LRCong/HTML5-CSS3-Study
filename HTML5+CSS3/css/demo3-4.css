@@ -1,0 +1,48 @@
+body {
+    background-color: darkslategray;
+}
+
+a {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px;
+    border-top: 10px solid darkslategray;
+}
+
+a:link, a:visited {
+    color: grey;
+}
+
+a:hover {
+    border-top: 10px solid yellowgreen
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    margin: 150px 0 40px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: darkgray;
+    font-size: 20px;
+}
+
+.button {
+    padding: 0;
+}
+
+.button {
+    height: 50;
+    width: 350px;
+    background-color: yellowgreen;
+    font: bold 20px '微软雅黑';
+    text-align: center;
+    line-height: 50px;
+    border: none;
+    margin: 30px auto 30px;
+    padding: 0px;
+    color: black;
+}

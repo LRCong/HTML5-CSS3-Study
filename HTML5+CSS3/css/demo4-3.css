@@ -1,0 +1,91 @@
+.page .header {
+    width: 80%;
+    height: 60px;
+    background-color: #444444;
+    margin: 0 auto;
+}
+
+.page .header .title {
+    line-height: 60px;
+    margin-left: 20px;
+    color: #dddddd;
+}
+
+.page .header img {
+    width: 20px;
+    margin: 20px 20px 20px 0;
+}
+
+.page .main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page .main .nav {
+    width: 470px;
+    margin: 50px auto 10px;
+    font-size: 0;
+}
+
+
+.page .main .nav a {
+    display: inline-block;
+    text-align: center;
+    width: 68px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.page .main .content {
+    margin: 0 auto;
+    padding: 0 3%;
+    font-size: 0;
+}
+
+.page .main .content img {
+    width: 33%;
+    margin: 0.16%;
+}
+
+.page .footer {
+    width: 100%;
+    height: 150px;
+    margin: 20px auto 0;
+    background-color: #444444;
+}
+
+.page .footer .link {
+    border-top: 30px solid #444444;
+    width: 10%;
+    margin: 0 auto 0;
+}
+
+.page .footer .link img {
+    width: 15%;
+    margin: 0 3%;
+}
+
+.page .footer p {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: 8px;
+}
+
+.page .footer .user {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 8px;
+}
+
+.page .footer .user a {
+    margin: 0 10px;
+}
+
+.page .footer .user a:link, .page .footer .user a:visited {
+    color: grey;
+}

@@ -1,0 +1,72 @@
+.page {
+    width: 395px;
+    height: 180px;
+    border: 1px solid #000000;
+}
+
+.img {
+    width: 180px;
+    height: 180px;
+    background-color: #dcc6b9;
+}
+
+.img img {
+    height: 100%;
+}
+
+.info {
+    width: 160px;
+    height: 180px;
+    padding: 0 10px;
+}
+
+.title {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 11px;
+}
+
+.detail {
+    margin-top: 12px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #989898;
+}
+
+.progress {
+    background-color: #ffe4dc;
+    width: 159px;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress .sold {
+    background-color: red;
+    width: 30%;
+    height: 6px;
+}
+
+.sold {
+    color: #fe3338;
+    line-height: 28px;
+    height: 28px;
+    font-size: 12px;
+}
+
+.price span:nth-of-type(1) {
+    color: red;
+    font-size: 12px;
+}
+
+.price span:nth-of-type(2) {
+    color: #ff6113;
+    font-size: 19px;
+}
+
+.price span:nth-of-type(3) {
+    color: #989898;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 6px;
+}

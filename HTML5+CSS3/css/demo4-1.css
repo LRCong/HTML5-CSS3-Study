@@ -1,0 +1,52 @@
+.nav {
+    height: 88px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.nav .logo {
+    margin: 0 0 0 80px;
+    height: 88px;
+}
+
+.nav .logo img {
+    height: 100%;
+}
+
+.nav .main {
+    margin-left: 60px;
+    height: 88px;
+    line-height: 88px;
+}
+
+.nav .user {
+    margin: 0 16px 0 60px;
+    height: 88px;
+    line-height: 88px;
+}
+
+.nav .main a {
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.nav .user a {
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 18px;
+    margin: 22px 0;
+}
+
+.nav .user a:nth-of-type(1) {
+    background-color: #28292a;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.nav .user a:nth-of-type(2) {
+    background-color: #ffd40d;
+    color: #000000;
+}

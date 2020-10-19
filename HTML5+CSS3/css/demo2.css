@@ -1,0 +1,21 @@
+body {
+    background-image: url(../img/demo2-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+span {
+    background-color: red;
+}
+
+p {
+    color: white;
+    text-indent: 2em;
+    padding: 0 20px;
+}

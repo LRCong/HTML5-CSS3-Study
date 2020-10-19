@@ -1,0 +1,159 @@
+.page .header {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background: url(../img/山脉.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.page .header .title {
+    line-height: 60px;
+    position: relative;
+    top: 30%;
+    color: #dddddd;
+    font-size: 40px;
+}
+
+.page .header img {
+    width: 20px;
+    margin: 20px 20px 20px 0;
+}
+
+.page .main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page .main .nav {
+    width: 470px;
+    margin: 50px auto 10px;
+    font-size: 0;
+}
+
+
+.page .main .nav a {
+    display: inline-block;
+    text-align: center;
+    width: 68px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.page .main .content {
+    margin: 0 auto;
+    padding: 0 3%;
+    font-size: 0;
+}
+
+.page .main .content .imgBox {
+    display: inline-block;
+    width: 33%;
+    margin: 0.16%;
+    position: relative;
+}
+
+.page .main .content .imgBox .cover:hover {
+    opacity: 0.7;
+}
+
+.page .main .content .imgBox .cover {
+    background-color: rgb(100, 255, 100, 0.9);
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+    left: 0.16%;
+    opacity: 0;
+    text-align: center;
+}
+
+.page .main .content .imgBox .cover .bd {
+    width: 90%;
+    height: 90%;
+    border: 1px solid white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -26% 0 0 -45%;
+}
+
+.page .main .content .imgBox h1 {
+    font-size: 20px;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    margin-top: -10px;
+    color: #222222;
+}
+
+.page .main .content .imgBox img {
+    width: 100%;
+}
+
+.page .main .content img {
+    width: 33%;
+    margin: 0.16%;
+}
+
+.page .footer {
+    width: 100%;
+    height: 150px;
+    margin: 20px auto 0;
+    background-color: #444444;
+}
+
+.page .footer .link {
+    border-top: 30px solid #444444;
+    width: 10%;
+    margin: 0 auto 0;
+}
+
+.page .footer .link img {
+    width: 15%;
+    margin: 0 3%;
+}
+
+.page .footer p {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: 8px;
+}
+
+.page .footer .user {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 8px;
+}
+
+.page .footer .user a {
+    margin: 0 10px;
+}
+
+.page .footer .user a:link, .page .footer .user a:visited {
+    color: grey;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background:  #444444;
+    position: fixed;
+    top: 40%;
+    right: 20px;
+}
+
+.box img {
+    width: 60%;
+    height: 60%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -50% 0 0 -30%;
+}

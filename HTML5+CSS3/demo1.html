@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo1</title>
+</head>
+
+<body>
+    <h1>vscode</h1>
+    <ol>
+        <li><a href="#mark">正文</a></li>
+        <li><a href="#MobaXterm">MobaXterm</a></li>
+        <li><a href="#xshell+xming">xshell+xming</a></li>
+        <li><a href="#VS Code远程开发">VS Code远程开发</a></li>
+    </ol>
+
+    <br />
+    <img src="./img/demo1-1.jpg" alt="" height='200px'>
+    <img src="./img/demo1-2.jpg" alt="" height='200px'>
+    <hr />
+    <p>这是我最先采用的方式，主要的编码工作是在windows下用Pycharm完成，
+        然后用SVN、SFTP同步到远程服务器，然后使用Putty结合vim做一些小规模的开发，然后进行调试，
+        打包、测试。虽然现在看起来会非常繁琐，但是在当时眼界被局限的时候，认为这就是本应该有的远程开发形式，
+        所以，延续的很久。</p>
+    <hr />
+    <h3 id="mark">正文</h3>
+    <h3 id="MobaXterm">MobaXterm</h3>
+    <p>
+        后来，我遇到了MobaXterm，使用几个月之后我很惊叹，为什么有这么强大的工具？
+
+        Mobaxterm相对于Putty是一款功能非常丰富的增强型终端模拟工具，更重要的是它集成了xming，能够自动把远程服务器下的窗口投影到本地，这样的话我们就可以轻松打开带有UI的客户端。
+
+        因此，这时候我开始在远程服务器上配置Pycharm和Python开发环境，然后使用MobaXterm打开Pycharm客户端进行开发。
+
+        就这样又延续了几个月，我认为，也许这就是远程开发最完美的解决方案。
+    </p>
+    <h3 id='xshell+xming'>xshell+xming</h3>
+    <p>
+        再后来，我尝试了一下xshell，然后就再也回不去了。经过对比之后逐渐凸显出MobaXterm的缺点，也让xshell的优点显得更加突出，
+
+        丰富而简单的主题配置
+        强大的快捷键
+        反应迅速灵敏
+        支持丰富的定制化功能
+        但是，随之而来也遇到了一个问题。一直喜欢的有界面的Pycharm不能用了，xshell自家的Xmanger收费。只能自己安装xming，设置转发隧道，用xming显示Pycharm客户端。
+
+        这时候，我觉得也许我可以在探索远程开发的道路上停下脚步了，但是，这时候我却遇到了vs code。
+    </p>
+    <h3 id='VS Code远程开发'>VS Code远程开发</h3>
+    <p>
+        最近两年vs code在开发工具领域表现得非常抢眼，让很多原本热衷于eclipse、IntelliJ、Atom的同学纷纷转向了vs code，并且对其赞不绝口。一直以来，我认为vs
+        code名不副实，它只不过是一个并没有什么特色之处，依靠插件而使其丰富起来的编辑器而已。因此，虽然我会安装vs code，但是使用频率缺少的可怜。
+
+        直到今年5月份微软在PyCon 2019 大会上发布了 VS Code Remote之后，我才发现它对我太具有诱惑力了。
+
+        我不愿意为了一点优势而舍弃Pycharm强大的自动补全和代码调试功能，但是，我愿意为了便捷的远程开发去学着改掉自己的使用习惯，去适应一款新的开发工具。当然，前提是这款工具真的能够惊艳到我的情况下，这一点vs
+        code做到了，它在远程开发方面的确让我惊艳了一把。
+    </p>
+    <h3 id='远程开发配置'>远程开发配置</h3>
+    <p>
+        下面开始详细讲一下vscode远程开发的配置。
+
+        第一步：安装插件
+
+        配置远程开发首先需要安装一个名为Remote Development的插件，具体操作步骤如下，
+
+        点击扩展按钮
+        搜索Remote Development
+        安装
+
+    </p>
+</body>
+
+</html>
